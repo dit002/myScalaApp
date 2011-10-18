@@ -120,6 +120,140 @@
             
       
       
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">	// Check that it is the form</td>
+        </tr>
+      
+      
+      
+            
+              <tr style="cursor: pointer; " class="  status_passed">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">The Hello world app.</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">	// Submit the form</td>
+        </tr>
+      
+      
+      
+            
+              <tr style="cursor: pointer; " class="  status_done">
+                <td width="33%">clickAndWait</td>
+                <td width="33%">css=input[type=submit]</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">	// Check the error</td>
+        </tr>
+      
+      
+      
+            
+              <tr style="cursor: pointer; " class="  status_passed">
+                <td width="33%">assertTextPresent</td>
+                <td width="33%">Oops, please enter your name!</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">	// Type the name and submit</td>
+        </tr>
+      
+      
+      
+            
+              <tr style="cursor: pointer; " class="  status_done">
+                <td width="33%">type</td>
+                <td width="33%">css=input[type=text]</td>
+                <td>bob</td>
+              </tr>
+            
+      
+      
+      
+            
+              <tr style="cursor: pointer; " class="  status_done">
+                <td width="33%">clickAndWait</td>
+                <td width="33%">css=input[type=submit]</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">	// Check the back link</td>
+        </tr>
+      
+      
+      
+            
+              <tr style="cursor: pointer; " class="  status_done">
+                <td width="33%">clickAndWait</td>
+                <td width="33%">link=Back to form</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
+      
+        <tr>
+            <td colspan="3" style="font-style:italic; background: #e2e2e2">	// Home page?</td>
+        </tr>
+      
+      
+      
+            
+              <tr style="cursor: pointer; " class="  status_passed">
+                <td width="33%">assertTextNotPresent</td>
+                <td width="33%">Hello bob!</td>
+                <td></td>
+              </tr>
+            
+      
+      
+      
+            
+      
+      
     </tbody>
 </table>
 
