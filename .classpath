@@ -4,6 +4,8 @@
 	<classpathentry kind="src" path="tmp/generated"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="src" path="scala-0.9.1"/>
+	<classpathentry kind="src" path="standalone"/>
+	<classpathentry kind="src" path="standalonetest"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/dit002/tool/play-1.2.3/framework/play-1.2.3.jar" sourcepath="/Users/dit002/tool/play-1.2.3/framework/src"/>
